@@ -1,0 +1,115 @@
+body {
+    width: 1440px;
+    font-weight: 400;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 95%); 
+    padding: 50px; 
+    justify-content: center;
+    align-items: center;  
+    border-radius:5px;
+}
+
+h1{
+    font-size: 15px;
+    color:  hsla(0, 0%, 100%, 0.75); 
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+}
+
+.Display{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-1{
+    padding: 20px;
+    background-color: hsl(31, 77%, 52%)
+}
+
+.content-2{
+    padding: 20px;
+    background-color: hsl(166, 50%, 40%)
+}
+
+.content-3{
+    padding: 20px;
+    background-color: hsl(179, 100%, 13%)
+}
+
+.space{
+    padding: 20px;
+}
+
+/*button{
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+} */
+
+ .content-1 input{
+     font-size: 15px;
+     padding:10px;
+    background-color:  hsl(0, 0%, 95%);
+    color:  hsl(31, 77%, 52%);
+    border-radius: 15px;
+}
+
+.content-2 input{
+    font-size: 15px;
+    padding:10px;
+    background-color:  hsl(0, 0%, 95%);
+    color:  hsl(166, 50%, 40%);
+    border-radius: 15px;
+}
+
+.content-3 input{
+    font-size: 15px;
+    padding:10px;
+    background-color:  hsl(0, 0%, 95%);
+    color:  hsl(166, 50%, 40%);
+    border-radius: 15px;
+}
+
+.input1{
+    margin-top: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+.input2{
+    margin-top: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+.input3{
+    margin-top: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+.grid button{
+    text-align: center;
+    font-size: 25px;
+    background: rgba(99, 99, 245, 0.774);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.grid a{
+    text-decoration: none;
+}
